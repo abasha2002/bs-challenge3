@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: 'ITF Devanagari';
+    src: url(./fonts/TiroDevanagariHindi-Regular.ttf);
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        margin-top: 47px !important;
+        font-size: 44px !important;
+        line-height: 53px !important;
+    }
+    p{
+        font-size: 12px !important;
+    line-height: 18px !important;
+    }
+    input{
+        width: 215.6px !important;
+        display: block !important;
+    }
+    button{
+        margin-top: 10px !important;
+    }
+    .texts{
+        margin-top: 25px !important;
+        margin-left: 20px !important;
+    }
+    img{
+        border-radius: 0px 0px 48px 48px !important;
+        width: 100% !important;
+    }
+    .row{
+        margin: 0;
+    }
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F5F5;
+}
+section{
+    background: #181818;
+    border: 1px solid #484848;
+    border-radius: 48px;
+}
+.texts{
+    margin: 51px 0px 50px 50px;
+}
+.number{
+    font-family: 'ITF Devanagari';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58.2593px;
+    line-height: 87px;
+    color: #FFFFFF;
+    display: inline-block;
+    transform: rotate(90deg);
+}
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 83px;
+    line-height: 88px;
+    letter-spacing: -0.02em;
+    color: #F2F4F7;
+    margin-top: 80px;
+}
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #D0D5DD;
+    margin-top: 24px;
+}
+input{
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    padding: 12px 14px;
+    width: 360px;
+    margin-right: 16px;
+}
+button{
+    width: 128px;
+    padding: 12px 20px;
+    background: #BC1B06;
+    border: 1px solid #FF4405;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.image{
+    padding-right: 0;
+    padding-left: 0;
+}
+img{
+    border-radius: 48px;
+    width: 100%;
+}
